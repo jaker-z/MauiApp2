@@ -7,9 +7,16 @@
         <member name="T:MauiApp2.DetailViewModel">
             <inheritdoc/>
             <inheritdoc/>
+            <inheritdoc/>
         </member>
         <member name="P:MauiApp2.DetailViewModel.DetailTitle">
             <inheritdoc cref="F:MauiApp2.DetailViewModel.detailTitle"/>
+        </member>
+        <member name="F:MauiApp2.DetailViewModel.changeMainLabelCommand">
+            <summary>The backing field for <see cref="P:MauiApp2.DetailViewModel.ChangeMainLabelCommand"/>.</summary>
+        </member>
+        <member name="P:MauiApp2.DetailViewModel.ChangeMainLabelCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:MauiApp2.DetailViewModel.ChangeMainLabelAsync"/>.</summary>
         </member>
         <member name="F:MauiApp2.DetailViewModel.goBackCommand">
             <summary>The backing field for <see cref="P:MauiApp2.DetailViewModel.GoBackCommand"/>.</summary>
@@ -27,6 +34,9 @@
         </member>
         <member name="P:MauiApp2.MainViewModel.GreetingText">
             <inheritdoc cref="F:MauiApp2.MainViewModel.greetingText"/>
+        </member>
+        <member name="P:MauiApp2.MainViewModel.GreetingSubText">
+            <inheritdoc cref="F:MauiApp2.MainViewModel.greetingSubText"/>
         </member>
         <member name="F:MauiApp2.MainViewModel.changeGreetingCommand">
             <summary>The backing field for <see cref="P:MauiApp2.MainViewModel.ChangeGreetingCommand"/>.</summary>
@@ -61,6 +71,9 @@
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.GreetingText">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "GreetingText" generated properties.</summary>
         </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.GreetingSubText">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "GreetingSubText" generated properties.</summary>
+        </member>
         <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs">
             <summary>
             A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instances
@@ -75,6 +88,9 @@
         </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.GreetingText">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "GreetingText" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.GreetingSubText">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "GreetingSubText" generated properties.</summary>
         </member>
     </members>
 </doc>

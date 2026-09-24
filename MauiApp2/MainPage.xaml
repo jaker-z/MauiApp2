@@ -6,22 +6,35 @@
              x:Class="MauiApp2.MainPage"
              Title="{Binding Title}">
 
-    <VerticalStackLayout Padding="10"
-                         Spacing="10">
+    <VerticalStackLayout Spacing="10">
         
-        <Image Source="pixel_controller.png"
+        <StackLayout Margin="20">
+            <Image Source="pixel_controller.png"
                HeightRequest="200"
                Aspect="AspectFit"/>
-        
-        <Label Text="{Binding GreetingText}"
+
+            <Label Text="{Binding GreetingText}"
                FontSize="24"
                HorizontalTextAlignment="Center"/>
+
+            <Label Text="{Binding GreetingSubText}"
+               FontSize="18"
+               TextColor="{StaticResource Tertiary}"
+               HorizontalTextAlignment="Center"/>
+        </StackLayout>
 
         <Button Text="Press here to change the greeting."
                 Command="{Binding ChangeGreetingCommand}"/>
 
-        <Button Text="Extra button"
+        <StackLayout Margin="20"
+                     Spacing="10">
+
+            <Picker ItemsSource="{Binding AvailableOptions}"/>
+
+            <Button Text="Extra button"
                 Command="{Binding GoToDetailsCommand}"/>
+        </StackLayout>
+
 
     </VerticalStackLayout>
     

@@ -6,15 +6,25 @@
              x:DataType="viewmodel:DetailViewModel"
              Title="DetailPage">
 
-    <VerticalStackLayout>
-        
+    <VerticalStackLayout Margin="20"
+                         Spacing="10">
+        <Image Source="cool_pixel_pizza.png"/>
+
         <Label Text="{Binding DetailTitle}"
-               FontSize="24"
+               FontSize="30"
                HorizontalTextAlignment="Center"/>
 
-        <Button Text="Another extra button."
+        <Grid ColumnDefinitions="*,100">
+            <Label Text="You were here: "
+                   FontSize="24"
+                   TextColor="{StaticResource Tertiary}"/>
+
+            <DatePicker Grid.Column="2"/>
+        </Grid>
+
+        <Button Text="Go back"
                 Command="{Binding GoBackCommand}"/>
-w
+
     </VerticalStackLayout>
     
     

@@ -9,7 +9,7 @@ namespace MauiApp2
     public partial class DetailViewModel : ObservableObject
     {
         [ObservableProperty]
-        private string detailTitle = "Cool Pizza";
+        private string detailTitle = "Welcome to Cool Pizza.";
 
 
         [RelayCommand]

@@ -26,6 +26,12 @@ namespace MauiApp2
                 GreetingText = greeting2;
         }
 
+        [RelayCommand]
+        async Task GoToDetailsAsync()
+        {
+            await Shell.Current.GoToAsync(nameof(DetailPage));
+        }
+
 
     }
 }

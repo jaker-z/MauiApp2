@@ -3,28 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\only1\\source\\repos\\MauiApp2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A81EF059-79D1-4AD4-B3EE-D1A7A8BDF6A8}|MauiApp2\\MauiApp2.csproj|c:\\users\\only1\\source\\repos\\mauiapp2\\mauiapp2\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A81EF059-79D1-4AD4-B3EE-D1A7A8BDF6A8}|MauiApp2\\MauiApp2.csproj|solutionrelative:mauiapp2\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A8F3BFB5-E387-C22B-8946-28144CD45E33}|MauiApp2\\MauiApp2.csproj|c:\\users\\only1\\source\\repos\\mauiapp2\\mauiapp2\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8F3BFB5-E387-C22B-8946-28144CD45E33}|MauiApp2\\MauiApp2.csproj|solutionrelative:mauiapp2\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A81EF059-79D1-4AD4-B3EE-D1A7A8BDF6A8}|MauiApp2\\MauiApp2.csproj|c:\\users\\only1\\source\\repos\\mauiapp2\\mauiapp2\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A81EF059-79D1-4AD4-B3EE-D1A7A8BDF6A8}|MauiApp2\\MauiApp2.csproj|solutionrelative:mauiapp2\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A8F3BFB5-E387-C22B-8946-28144CD45E33}|MauiApp2\\MauiApp2.csproj|c:\\users\\only1\\source\\repos\\mauiapp2\\mauiapp2\\detailviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8F3BFB5-E387-C22B-8946-28144CD45E33}|MauiApp2\\MauiApp2.csproj|solutionrelative:mauiapp2\\detailviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A81EF059-79D1-4AD4-B3EE-D1A7A8BDF6A8}|MauiApp2\\MauiApp2.csproj|c:\\users\\only1\\source\\repos\\mauiapp2\\mauiapp2\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A81EF059-79D1-4AD4-B3EE-D1A7A8BDF6A8}|MauiApp2\\MauiApp2.csproj|solutionrelative:mauiapp2\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{A8F3BFB5-E387-C22B-8946-28144CD45E33}|MauiApp2\\MauiApp2.csproj|c:\\users\\only1\\source\\repos\\mauiapp2\\mauiapp2\\detailpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8F3BFB5-E387-C22B-8946-28144CD45E33}|MauiApp2\\MauiApp2.csproj|solutionrelative:mauiapp2\\detailpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A81EF059-79D1-4AD4-B3EE-D1A7A8BDF6A8}|MauiApp2\\MauiApp2.csproj|c:\\users\\only1\\source\\repos\\mauiapp2\\mauiapp2\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A81EF059-79D1-4AD4-B3EE-D1A7A8BDF6A8}|MauiApp2\\MauiApp2.csproj|solutionrelative:mauiapp2\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A8F3BFB5-E387-C22B-8946-28144CD45E33}|MauiApp2\\MauiApp2.csproj|c:\\users\\only1\\source\\repos\\mauiapp2\\mauiapp2\\detailpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A8F3BFB5-E387-C22B-8946-28144CD45E33}|MauiApp2\\MauiApp2.csproj|solutionrelative:mauiapp2\\detailpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A81EF059-79D1-4AD4-B3EE-D1A7A8BDF6A8}|MauiApp2\\MauiApp2.csproj|c:\\users\\only1\\source\\repos\\mauiapp2\\mauiapp2\\detailviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A81EF059-79D1-4AD4-B3EE-D1A7A8BDF6A8}|MauiApp2\\MauiApp2.csproj|solutionrelative:mauiapp2\\detailviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A8F3BFB5-E387-C22B-8946-28144CD45E33}|MauiApp2\\MauiApp2.csproj|c:\\users\\only1\\source\\repos\\mauiapp2\\mauiapp2\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A8F3BFB5-E387-C22B-8946-28144CD45E33}|MauiApp2\\MauiApp2.csproj|solutionrelative:mauiapp2\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A81EF059-79D1-4AD4-B3EE-D1A7A8BDF6A8}|MauiApp2\\MauiApp2.csproj|c:\\users\\only1\\source\\repos\\mauiapp2\\mauiapp2\\detailpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A81EF059-79D1-4AD4-B3EE-D1A7A8BDF6A8}|MauiApp2\\MauiApp2.csproj|solutionrelative:mauiapp2\\detailpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{A8F3BFB5-E387-C22B-8946-28144CD45E33}|MauiApp2\\MauiApp2.csproj|c:\\users\\only1\\source\\repos\\mauiapp2\\mauiapp2\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8F3BFB5-E387-C22B-8946-28144CD45E33}|MauiApp2\\MauiApp2.csproj|solutionrelative:mauiapp2\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,17 +34,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "MauiProgram.cs",
               "DocumentMoniker": "C:\\Users\\only1\\source\\repos\\MauiApp2\\MauiApp2\\MauiProgram.cs",
               "RelativeDocumentMoniker": "MauiApp2\\MauiProgram.cs",
               "ToolTip": "C:\\Users\\only1\\source\\repos\\MauiApp2\\MauiApp2\\MauiProgram.cs",
               "RelativeToolTip": "MauiApp2\\MauiProgram.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-23T16:46:36.197Z",
               "IsPinned": true,
@@ -52,29 +52,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "MainPage.xaml",
               "DocumentMoniker": "C:\\Users\\only1\\source\\repos\\MauiApp2\\MauiApp2\\MainPage.xaml",
               "RelativeDocumentMoniker": "MauiApp2\\MainPage.xaml",
               "ToolTip": "C:\\Users\\only1\\source\\repos\\MauiApp2\\MauiApp2\\MainPage.xaml",
               "RelativeToolTip": "MauiApp2\\MainPage.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2026-09-23T16:17:36.956Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MainPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\only1\\source\\repos\\MauiApp2\\MauiApp2\\MainPage.xaml.cs",
-              "RelativeDocumentMoniker": "MauiApp2\\MainPage.xaml.cs",
-              "ToolTip": "C:\\Users\\only1\\source\\repos\\MauiApp2\\MauiApp2\\MainPage.xaml.cs",
-              "RelativeToolTip": "MauiApp2\\MainPage.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-23T16:17:35.99Z",
               "IsPinned": true,
               "EditorCaption": ""
             },
@@ -86,7 +72,7 @@
               "RelativeDocumentMoniker": "MauiApp2\\MainViewModel.cs",
               "ToolTip": "C:\\Users\\only1\\source\\repos\\MauiApp2\\MauiApp2\\MainViewModel.cs",
               "RelativeToolTip": "MauiApp2\\MainViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA+AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-23T16:16:20.458Z",
               "IsPinned": true,
@@ -94,36 +80,49 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "DetailViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\only1\\source\\repos\\MauiApp2\\MauiApp2\\DetailViewModel.cs",
-              "RelativeDocumentMoniker": "MauiApp2\\DetailViewModel.cs",
-              "ToolTip": "C:\\Users\\only1\\source\\repos\\MauiApp2\\MauiApp2\\DetailViewModel.cs",
-              "RelativeToolTip": "MauiApp2\\DetailViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-23T16:17:27.903Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "DetailPage.xaml",
               "DocumentMoniker": "C:\\Users\\only1\\source\\repos\\MauiApp2\\MauiApp2\\DetailPage.xaml",
               "RelativeDocumentMoniker": "MauiApp2\\DetailPage.xaml",
               "ToolTip": "C:\\Users\\only1\\source\\repos\\MauiApp2\\MauiApp2\\DetailPage.xaml",
               "RelativeToolTip": "MauiApp2\\DetailPage.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2026-09-23T16:17:04.385Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DetailPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\only1\\source\\repos\\MauiApp2\\MauiApp2\\DetailPage.xaml.cs",
+              "RelativeDocumentMoniker": "MauiApp2\\DetailPage.xaml.cs",
+              "ToolTip": "C:\\Users\\only1\\source\\repos\\MauiApp2\\MauiApp2\\DetailPage.xaml.cs",
+              "RelativeToolTip": "MauiApp2\\DetailPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-24T01:44:27.916Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DetailViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\only1\\source\\repos\\MauiApp2\\MauiApp2\\DetailViewModel.cs",
+              "RelativeDocumentMoniker": "MauiApp2\\DetailViewModel.cs",
+              "ToolTip": "C:\\Users\\only1\\source\\repos\\MauiApp2\\MauiApp2\\DetailViewModel.cs",
+              "RelativeToolTip": "MauiApp2\\DetailViewModel.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-23T16:17:27.903Z",
               "EditorCaption": ""
             }
           ]

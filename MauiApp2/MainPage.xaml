@@ -20,7 +20,8 @@
         <Button Text="Press here to change the greeting."
                 Command="{Binding ChangeGreetingCommand}"/>
 
-        <Button Text="Extra button"/>
+        <Button Text="Extra button"
+                Command="{Binding GoToDetailsCommand}"/>
 
     </VerticalStackLayout>
     

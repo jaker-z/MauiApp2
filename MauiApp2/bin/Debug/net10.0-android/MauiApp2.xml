@@ -4,7 +4,21 @@
         <name>MauiApp2</name>
     </assembly>
     <members>
+        <member name="T:MauiApp2.DetailViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:MauiApp2.DetailViewModel.DetailTitle">
+            <inheritdoc cref="F:MauiApp2.DetailViewModel.detailTitle"/>
+        </member>
+        <member name="F:MauiApp2.DetailViewModel.goBackCommand">
+            <summary>The backing field for <see cref="P:MauiApp2.DetailViewModel.GoBackCommand"/>.</summary>
+        </member>
+        <member name="P:MauiApp2.DetailViewModel.GoBackCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:MauiApp2.DetailViewModel.GoBackAsync"/>.</summary>
+        </member>
         <member name="T:MauiApp2.MainViewModel">
+            <inheritdoc/>
             <inheritdoc/>
             <inheritdoc/>
         </member>
@@ -20,6 +34,12 @@
         <member name="P:MauiApp2.MainViewModel.ChangeGreetingCommand">
             <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:MauiApp2.MainViewModel.ChangeGreetingAsync"/>.</summary>
         </member>
+        <member name="F:MauiApp2.MainViewModel.goToDetailsCommand">
+            <summary>The backing field for <see cref="P:MauiApp2.MainViewModel.GoToDetailsCommand"/>.</summary>
+        </member>
+        <member name="P:MauiApp2.MainViewModel.GoToDetailsCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:MauiApp2.MainViewModel.GoToDetailsAsync"/>.</summary>
+        </member>
         <member name="T:MauiApp2.Resource">
             <summary>
             Android Resource Designer class.
@@ -32,6 +52,9 @@
             for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
             </summary>
         </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.DetailTitle">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "DetailTitle" generated properties.</summary>
+        </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Title">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Title" generated properties.</summary>
         </member>
@@ -43,6 +66,9 @@
             A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instances
             for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
             </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.DetailTitle">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "DetailTitle" generated properties.</summary>
         </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Title">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Title" generated properties.</summary>

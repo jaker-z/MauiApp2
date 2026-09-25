@@ -28,6 +28,8 @@
             <inheritdoc/>
             <inheritdoc/>
             <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
         </member>
         <member name="P:MauiApp2.MainViewModel.Title">
             <inheritdoc cref="F:MauiApp2.MainViewModel.title"/>
@@ -38,11 +40,26 @@
         <member name="P:MauiApp2.MainViewModel.GreetingSubText">
             <inheritdoc cref="F:MauiApp2.MainViewModel.greetingSubText"/>
         </member>
+        <member name="P:MauiApp2.MainViewModel.UserInput">
+            <inheritdoc cref="F:MauiApp2.MainViewModel.userInput"/>
+        </member>
         <member name="F:MauiApp2.MainViewModel.changeGreetingCommand">
             <summary>The backing field for <see cref="P:MauiApp2.MainViewModel.ChangeGreetingCommand"/>.</summary>
         </member>
         <member name="P:MauiApp2.MainViewModel.ChangeGreetingCommand">
             <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:MauiApp2.MainViewModel.ChangeGreetingAsync"/>.</summary>
+        </member>
+        <member name="F:MauiApp2.MainViewModel.addEntryItemCommand">
+            <summary>The backing field for <see cref="P:MauiApp2.MainViewModel.AddEntryItemCommand"/>.</summary>
+        </member>
+        <member name="P:MauiApp2.MainViewModel.AddEntryItemCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:MauiApp2.MainViewModel.AddEntryItemAsync(System.String)"/>.</summary>
+        </member>
+        <member name="F:MauiApp2.MainViewModel.changeTitleCommand">
+            <summary>The backing field for <see cref="P:MauiApp2.MainViewModel.ChangeTitleCommand"/>.</summary>
+        </member>
+        <member name="P:MauiApp2.MainViewModel.ChangeTitleCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:MauiApp2.MainViewModel.ChangeTitleAsync"/>.</summary>
         </member>
         <member name="F:MauiApp2.MainViewModel.goToDetailsCommand">
             <summary>The backing field for <see cref="P:MauiApp2.MainViewModel.GoToDetailsCommand"/>.</summary>
@@ -74,6 +91,9 @@
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.GreetingSubText">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "GreetingSubText" generated properties.</summary>
         </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.UserInput">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "UserInput" generated properties.</summary>
+        </member>
         <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs">
             <summary>
             A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instances
@@ -91,6 +111,9 @@
         </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.GreetingSubText">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "GreetingSubText" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.UserInput">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "UserInput" generated properties.</summary>
         </member>
     </members>
 </doc>

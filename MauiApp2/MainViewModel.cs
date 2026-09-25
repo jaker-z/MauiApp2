@@ -11,6 +11,8 @@ namespace MauiApp2
     {
         public ObservableCollection<String> AvailableOptions { get; set; }
 
+        public ObservableCollection<EntryItem> EntryItems { get; set; }
+
         public MainViewModel()
         {
             AvailableOptions = new ObservableCollection<string>
@@ -18,6 +20,13 @@ namespace MauiApp2
                 "Pizza",
                 "Pastel Controller",
                 "Captain Falcon"
+            };
+
+            EntryItems = new ObservableCollection<EntryItem>()
+            {
+                new EntryItem {Name = "Frick", IsCompleted = false},
+                new EntryItem {Name = "Stick", IsCompleted = false},
+                new EntryItem {Name = "Pick", IsCompleted = false}
             };
         }
 
@@ -36,7 +45,8 @@ namespace MauiApp2
         private string subText1 = "This is where the fun begins.";
         private string subText2 = "Good job, friend!";
 
-
+        [ObservableProperty]
+        private string userInput = string.Empty;
         
 
 
@@ -52,9 +62,26 @@ namespace MauiApp2
             {
                 GreetingText = greeting2;
                 GreetingSubText = subText2;
-            }
-                
+            }     
         }
+
+        [RelayCommand]
+        async Task AddEntryItemAsync(string entry)
+        {
+            EntryItem newEntryItem = new EntryItem()
+            {
+                Name = entry,
+                IsCompleted = false
+            };
+            EntryItems.Add(newEntryItem);
+        }
+
+        [RelayCommand]
+        async Task ChangeTitleAsync()
+        {
+            Title = UserInput;
+        }
+
 
         [RelayCommand]
         async Task GoToDetailsAsync()

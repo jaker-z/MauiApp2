@@ -6,9 +6,10 @@
              x:Class="MauiApp2.MainPage"
              Title="{Binding Title}">
 
-    <VerticalStackLayout Spacing="10">
+    <VerticalStackLayout Spacing="10"
+                         Margin="20">
         
-        <StackLayout Margin="20">
+        <StackLayout>
             <Image Source="pixel_controller.png"
                HeightRequest="200"
                Aspect="AspectFit"/>
@@ -26,16 +27,38 @@
         <Button Text="Press here to change the greeting."
                 Command="{Binding ChangeGreetingCommand}"/>
 
-        <StackLayout Margin="20"
-                     Spacing="10">
+        <StackLayout Spacing="10">
 
             <Picker ItemsSource="{Binding AvailableOptions}"/>
 
-            <Button Text="Extra button"
+            <Button Text="Go to Cool Pizza"
                 Command="{Binding GoToDetailsCommand}"/>
         </StackLayout>
 
+        <Grid ColumnDefinitions="*, 100">
+            <Entry Placeholder="Enter a list item"
+                   Text="{Binding UserInput, Mode=TwoWay}"/>
+            <Button Text="Add"
+                    Grid.Column="1"
+                    Command="{Binding ChangeTitleCommand}"/>
+        </Grid>
+        
+        
+        <CollectionView ItemsSource="{Binding EntryItems}">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Grid ColumnDefinitions="50,*">
+                        <Label Text="Three"
+                               FontSize="18"
+                               Grid.Column="1"
+                               VerticalTextAlignment="Center"/>
 
+                        <CheckBox IsChecked="False"/>
+                    </Grid>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>        
+        
     </VerticalStackLayout>
     
     

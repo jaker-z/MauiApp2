@@ -24,7 +24,6 @@
 
         <Button Text="Go back"
                 Command="{Binding GoBackCommand}"/>
-
     </VerticalStackLayout>
     
     

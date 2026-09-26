@@ -9,10 +9,14 @@ namespace MauiApp2
 {
     public partial class MainViewModel : ObservableObject
     {
-        public ObservableCollection<String> AvailableOptions { get; set; }
+        [ObservableProperty]
+        ObservableCollection<String> availableOptions;
 
         [ObservableProperty]
         ObservableCollection<EntryItem> entryItems;
+
+        [ObservableProperty]
+        private string selectedOption;
 
         public MainViewModel()
         {
@@ -29,6 +33,8 @@ namespace MauiApp2
                 new EntryItem {Name = "Stick", IsCompleted = true},
                 new EntryItem {Name = "Pick", IsCompleted = false}
             };
+
+            SelectedOption = "Pizza";
         }
 
         [ObservableProperty]

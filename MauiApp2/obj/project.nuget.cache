@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "96ItxpGQMR0=",
+  "dgSpecHash": "0Y1eL3kMC24=",
   "success": true,
   "projectFilePath": "C:\\Users\\only1\\source\\repos\\MauiApp2\\MauiApp2\\MauiApp2.csproj",
   "expectedPackageFiles": [
@@ -33,6 +33,11 @@
     "C:\\Users\\only1\\.nuget\\packages\\microsoft.web.webview2\\1.0.3179.45\\microsoft.web.webview2.1.0.3179.45.nupkg.sha512",
     "C:\\Users\\only1\\.nuget\\packages\\microsoft.windows.sdk.buildtools\\10.0.22621.756\\microsoft.windows.sdk.buildtools.10.0.22621.756.nupkg.sha512",
     "C:\\Users\\only1\\.nuget\\packages\\microsoft.windowsappsdk\\1.7.250909003\\microsoft.windowsappsdk.1.7.250909003.nupkg.sha512",
+    "C:\\Users\\only1\\.nuget\\packages\\sourcegear.sqlite3\\3.53.3\\sourcegear.sqlite3.3.53.3.nupkg.sha512",
+    "C:\\Users\\only1\\.nuget\\packages\\sqlite-net-pcl\\1.11.285\\sqlite-net-pcl.1.11.285.nupkg.sha512",
+    "C:\\Users\\only1\\.nuget\\packages\\sqlitepclraw.core\\3.0.3\\sqlitepclraw.core.3.0.3.nupkg.sha512",
+    "C:\\Users\\only1\\.nuget\\packages\\sqlitepclraw.provider.e_sqlite3\\3.0.3\\sqlitepclraw.provider.e_sqlite3.3.0.3.nupkg.sha512",
+    "C:\\Users\\only1\\.nuget\\packages\\sqlitepclraw.provider.sqlite3\\3.0.3\\sqlitepclraw.provider.sqlite3.3.0.3.nupkg.sha512",
     "C:\\Users\\only1\\.nuget\\packages\\xamarin.android.glide\\4.16.0.14\\xamarin.android.glide.4.16.0.14.nupkg.sha512",
     "C:\\Users\\only1\\.nuget\\packages\\xamarin.android.glide.annotations\\4.16.0.14\\xamarin.android.glide.annotations.4.16.0.14.nupkg.sha512",
     "C:\\Users\\only1\\.nuget\\packages\\xamarin.android.glide.disklrucache\\4.16.0.14\\xamarin.android.glide.disklrucache.4.16.0.14.nupkg.sha512",

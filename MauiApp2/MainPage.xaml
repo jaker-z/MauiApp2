@@ -46,14 +46,14 @@
         
         <CollectionView ItemsSource="{Binding EntryItems}">
             <CollectionView.ItemTemplate>
-                <DataTemplate>
+                <DataTemplate x:DataType="viewmodel:EntryItem">
                     <Grid ColumnDefinitions="50,*">
-                        <Label Text="Three"
+                        <Label Text="{Binding Name}"
                                FontSize="18"
                                Grid.Column="1"
                                VerticalTextAlignment="Center"/>
-
-                        <CheckBox IsChecked="False"/>
+                        <CheckBox IsChecked="{Binding IsCompleted}"
+                                  Grid.Column="0"/>
                     </Grid>
                 </DataTemplate>
             </CollectionView.ItemTemplate>

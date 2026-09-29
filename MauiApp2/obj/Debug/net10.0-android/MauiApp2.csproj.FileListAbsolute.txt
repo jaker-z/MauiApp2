@@ -1620,3 +1620,12 @@ C:\Users\only1\source\repos\MauiApp2\MauiApp2\obj\Debug\net10.0-android\android\
 C:\Users\only1\source\repos\MauiApp2\MauiApp2\obj\Debug\net10.0-android\resizetizer\r\drawable\pixel_controller.png
 C:\Users\only1\source\repos\MauiApp2\MauiApp2\obj\Debug\net10.0-android\MauiApp2.sourcelink.json
 C:\Users\only1\source\repos\MauiApp2\MauiApp2\obj\Debug\net10.0-android\resizetizer\r\drawable\cool_pixel_pizza.png
+C:\Users\only1\source\repos\MauiApp2\MauiApp2\obj\Debug\net10.0-android\android\assets\x86_64\SQLite-net.dll
+C:\Users\only1\source\repos\MauiApp2\MauiApp2\obj\Debug\net10.0-android\android\assets\x86_64\SQLite-net.jlo.xml
+C:\Users\only1\source\repos\MauiApp2\MauiApp2\obj\Debug\net10.0-android\android\assets\x86_64\SQLite-net.typemap.xml
+C:\Users\only1\source\repos\MauiApp2\MauiApp2\obj\Debug\net10.0-android\android\assets\x86_64\SQLitePCLRaw.core.dll
+C:\Users\only1\source\repos\MauiApp2\MauiApp2\obj\Debug\net10.0-android\android\assets\x86_64\SQLitePCLRaw.core.jlo.xml
+C:\Users\only1\source\repos\MauiApp2\MauiApp2\obj\Debug\net10.0-android\android\assets\x86_64\SQLitePCLRaw.core.typemap.xml
+C:\Users\only1\source\repos\MauiApp2\MauiApp2\obj\Debug\net10.0-android\android\assets\x86_64\SQLitePCLRaw.provider.e_sqlite3.dll
+C:\Users\only1\source\repos\MauiApp2\MauiApp2\obj\Debug\net10.0-android\android\assets\x86_64\SQLitePCLRaw.provider.e_sqlite3.jlo.xml
+C:\Users\only1\source\repos\MauiApp2\MauiApp2\obj\Debug\net10.0-android\android\assets\x86_64\SQLitePCLRaw.provider.e_sqlite3.typemap.xml

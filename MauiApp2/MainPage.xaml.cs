@@ -46,9 +46,24 @@
             listView.ItemsSource = await _databaseService.GetCharacters();
         }
 
-        private void listView_ItemTapped(object sender, ItemTappedEventArgs e)
+        private async void listView_ItemTapped(object sender, ItemTappedEventArgs e)
         {
-            // DotNet MAUI Sqlite Tutorial  ======= 7:13
+            var character = (Character)e.Item;
+            var action = await DisplayActionSheetAsync("Action", "Cancel", null, "Edit", "Delete");
+
+            switch (action)
+            {
+                case "Edit":
+                    _editCharacterId = character.Id;
+                    nameEntryField.Text = character.CharacterName;
+                    emailEntryField.Text = character.Email;
+                    mobileEntryField.Text = character.Mobile;
+                    break;
+                case "Delete":
+                    await _databaseService.Delete(character);
+                    listView.ItemsSource = await _databaseService.GetCharacters();
+                    break;
+            }
         }
     }
 }

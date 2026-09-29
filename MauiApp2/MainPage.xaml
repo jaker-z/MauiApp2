@@ -43,23 +43,6 @@
                     Grid.Column="1"
                     Command="{Binding ChangeTitleCommand}"/>
         </Grid>
-        
-        
-        <CollectionView ItemsSource="{Binding EntryItems}">
-            <CollectionView.ItemTemplate>
-                <DataTemplate x:DataType="viewmodel:EntryItem">
-                    <Grid ColumnDefinitions="50,*">
-                        <Label Text="{Binding Name}"
-                               FontSize="18"
-                               Grid.Column="1"
-                               VerticalTextAlignment="Center"/>
-                        <CheckBox IsChecked="{Binding IsCompleted}"
-                                  Grid.Column="0"/>
-                    </Grid>
-                </DataTemplate>
-            </CollectionView.ItemTemplate>
-        </CollectionView>
-
 
         <FlexLayout Direction="Column">
             <VerticalStackLayout Padding="10" FlexLayout.Basis="400" BackgroundColor="Beige">
@@ -70,7 +53,7 @@
             </VerticalStackLayout>
             <ListView x:Name="listView" FlexLayout.Grow="1" HasUnevenRows="True" ItemTapped="listView_ItemTapped">
                 <ListView.ItemTemplate>
-                    <DataTemplate>
+                    <DataTemplate x:DataType="viewmodel:Character">
                         <ViewCell>
                             <VerticalStackLayout Padding="5">
                                 <Label Text="{Binding CharacterName}" FontSize="17" FontAttributes="Bold"/>
@@ -89,9 +72,22 @@
                 </ListView.ItemTemplate>
             </ListView>
         </FlexLayout>
-        
-        
-        
+
+        <CollectionView ItemsSource="{Binding EntryItems}">
+            <CollectionView.ItemTemplate>
+                <DataTemplate x:DataType="viewmodel:EntryItem">
+                    <Grid ColumnDefinitions="50,*">
+                        <Label Text="{Binding Name}"
+                               FontSize="18"
+                               Grid.Column="1"
+                               VerticalTextAlignment="Center"/>
+                        <CheckBox IsChecked="{Binding IsCompleted}"
+                                  Grid.Column="0"/>
+                    </Grid>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+
     </VerticalStackLayout>
     
     
